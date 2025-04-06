@@ -16,6 +16,6 @@ int main(){
      num=num/10;
     }
 
-    cout<<;
+    cout<<rev;
 
 }
