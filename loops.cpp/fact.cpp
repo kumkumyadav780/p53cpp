@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-  int n,ans=0;
+  /*int n,ans=0;
   cout<<"Enter number :";
   cin>>n;
   for(int i=1;i<n;i++){
@@ -16,15 +16,15 @@ int main()
   }
   else{
     cout<<"Not Perfect.";
-  }
+  }/*/
   
-  /*int base,power,ans=1;
+  int base,power,ans=1;
   cout<<"Enter base and power :";
   cin>>base>>power;
-  if(int i=1;i<=power;i++){
+  for(int i=1;i<=power;i++){
     ans=ans*base;
   }
-  cout<<ans;*/
+  cout<<ans;
   
   
   
