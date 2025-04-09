@@ -2,13 +2,16 @@
 using namespace std;
 int main(){
         
-    int num,count=0;
+    int num,ans=9;
     cout<<"Enter a Number: ";
     cin>>num;
-
-    for(num; num>0 ; num/=10){
-        count++;
+ while(num>0){
+    int digit = num%10;
+    if(digit<ans){
+        ans=digit;
     }
+    num=num%10;
+ }
+ cout<<ans;
 
-    cout<<count;
 }
