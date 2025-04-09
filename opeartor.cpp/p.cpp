@@ -2,11 +2,19 @@
 using namespace std;
 int main()
 {
-   float circle_a,r,pi=3.14;
-   cout<<"Enter radius :";
-   cin>>r;
-   circle_a= pi*r*r;
-   cout<<"Area of circle is ="<<circle_a;
+   int n,first=0,second=1,next;
+   cout<<"Enter number :";
+   cin>>n;
+   cout<<first<<"\t"<<second<<"\t";
+   for(int i=1;i<=n-2;i++){
+      next=first+second;
+      first=second;
+      second=next;
+      cout<<next<<"\t";
+   }
+
+      
    
+  
    return 0;
 }
