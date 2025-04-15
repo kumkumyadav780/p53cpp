@@ -14,8 +14,8 @@ cout<<"enter your fist term and n th term,difrence";
 cin>>ft>>n>>d;
 for(int i=ft;i<=n;++i)
 {
-  ans=ft+i*d;
-cout<<ans;
+  ans=ft+(n-1)*d;
 
 }
+cout<<ans;
 }
