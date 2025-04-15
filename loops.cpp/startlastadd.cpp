@@ -5,6 +5,10 @@ int main()
  int n,first,last,temp;
  cout<<"Enter number :";
  cin>>n;
+ if(n<10){
+  cout<<"Invalid input";
+  return 0;
+ }
  temp=n;
  last=n%10;
  while(temp>=10){
