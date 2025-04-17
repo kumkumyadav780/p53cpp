@@ -2,8 +2,7 @@
 using namespace std;
 int main()
 {
-
- int sn=6;
+int sn=6;
  int ln=17;
 int lcm;
 for(int i=ln;   ;i=i+ln)
@@ -12,11 +11,8 @@ for(int i=ln;   ;i=i+ln)
   {
     lcm=i;
     break;
-
   }
-
 }
-
 cout<<lcm;
 
 }
