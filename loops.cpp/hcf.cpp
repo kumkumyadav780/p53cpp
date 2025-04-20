@@ -2,20 +2,16 @@
 using namespace std;
 int main()
 {
- int n,ans=0;
- cout<<"Enter number :";
- cin>>n;
- for(int i=1;i<n;++i){
- if(n%i==0){
- ans=ans+i;
- }
- }
- if(ans==n){
- cout<<"perfect";
- }
- else{
- cout<<"Not perfect";
- }
+ int n1,n2;
+ cout<<"Enter number 1 :";
+ cin>>n1;
+ cout<<"Enter number 2 :";
+ cin>>n2;
+ for(int i=1;i<=n1 && i<=n2;++i){
+  if(n1%i==0 && n2%i==0)
+   cout<<i;
+  }
 
- 
+
+
 }
