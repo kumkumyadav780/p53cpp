@@ -8,7 +8,7 @@ int n=5;
      for(int c=1;c<=n;c++){
 
           if(c<=r){
-              cout<<char(c+64);
+              cout<<char(c+96);
           }
           else{
             cout<<" ";
