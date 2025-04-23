@@ -15,7 +15,7 @@ cin>>ft>>n>>d;
 for(int i=ft;i<=n;++i)
 {
   ans=ft+(n-1)*d;
-
+  
 }
 cout<<ans;
 }

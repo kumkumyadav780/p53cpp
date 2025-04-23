@@ -2,16 +2,18 @@
 using namespace std;
 int main()
 {
- int n1,n2,n3;
- cout<<"Enter three numbers :";
- cin>>n1>>n2>>n3;
- if(n1>n2 && n1>n3){
- cout<<"greatest no is = "<<n1;
+ int n,first,last,temp;
+ cout<<"Enter number :";
+ cin>>n;
+ if(n<10){
+  cout<<"Invalid input.";
+  return 0;
  }
- else if(n2>n1 && n2>n3){
-  cout<<"greatest no is = "<<n2;
+ temp=n;
+ last=temp%10;
+ while(temp>=10){
+ temp=temp/10;
+ first=temp;
  }
- else {
- cout<<"greatest no is = "<<n3;
- }
+ cout<<first+last;
 }

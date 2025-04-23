@@ -2,14 +2,19 @@
 using namespace std;
   int main()
   {
-     int year;
-     cout<<"Enter Year :";
-     cin>>year;
-     if(year%4==0){
-     cout<<"Leap year.";
-     }
-     else{
-  cout<<"Not leap year.";
-     }
-  return 0;
+   int n,rev=0;
+   cout<<"Enter number :";
+   cin>>n;
+   int ans=n;
+   while(n>0){
+   int digit=n%10;
+   rev=rev*10+digit;
+   n=n/10;
+   }
+   if(ans==rev){
+   cout<<"palindron";
+   }
+   else{
+    cout<<"Not palindrom";
+   }
   }
