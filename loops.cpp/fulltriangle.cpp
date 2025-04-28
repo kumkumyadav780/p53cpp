@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
- for(int r=1;r<=4;r++){
-  for(int c=1;c<=4;c++){
- if(c<=r){
-  cout<<" &";
+ for(int i=1;i<=5;i++){
+  for(int j=5;j>=1;j--){
+ if(i>=j){
+  cout<<" *";
  }
  else{
  cout<<" ";
