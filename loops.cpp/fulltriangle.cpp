@@ -19,7 +19,7 @@ cout<<"Enter number :";
 cin>>n;
 for(int i=1;i<=n;i++){
  if(n%i==0){
-                       cout<<"fact ="<<i;
+cout<<"fact ="<<i;
  }
 }
 
