@@ -13,6 +13,8 @@ int main()
 //   }
 //   cout<<endl;
 //  }
+
+
 //factors?
 int n;
 cout<<"Enter number :";
