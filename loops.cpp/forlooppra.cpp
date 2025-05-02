@@ -37,4 +37,23 @@ int main()
 // else
 // cout<<"zero";
 
+// int a=10,b=3;
+// cout<<a/b<<endl;
+// cout<<a%b<<endl;
+// cout<<a++<<endl;
+// cout<<++b;
+
+// int n1,n2;
+// cout<<"Enter number n1 and n2 :";
+// cin>>n1>>n2;
+// cout<<"sum ="<<n1+n2;
+// cout<<"product ="<<n1*n2;
+// cout<<"difference ="<<n1-n2;
+
+for(int i=1; i<=5; i++){
+if(i==4)
+break;
+cout<<i<<" ";
+}
+
 }
