@@ -50,10 +50,91 @@ int main()
 // cout<<"product ="<<n1*n2;
 // cout<<"difference ="<<n1-n2;
 
-for(int i=1; i<=5; i++){
-if(i==4)
-break;
-cout<<i<<" ";
-}
+// for(int i=1; i<=5; i++){
+// if(i==4)
+// break;
+// cout<<i<<" ";
+// }
+
+// int a=5;
+// int b=10;
+// cout<<a++ + ++b;
+
+// int x=10;
+// int y=10;
+// int z=x++ + --y *2;
+// cout<<z;
+
+
+// int x=5,y=3,z=2;
+// int result=x+y*z/y;
+// cout<<result;
+
+// int a=10;
+// int b=2;
+// int c;
+// c=++a;
+// a=--b;
+// b=c++;
+// cout<<c<<endl;
+// cout<<a<<endl;
+// cout<<b<<endl;
+
+// int x=11,y=-5,z;
+// z=y++;
+// y=--x;
+// x=--z;
+// cout<<z<<" ";
+// cout<<y<<" ";
+// cout<<x<<" ";
+
+// int a=5;
+// int b=a++ + ++a + --a -a--;
+// cout<<b;
+
+// int x=10;
+// int y=++x + x++ + ++x;
+// cout<<y;
+
+// int a=3;
+// int b=a++ + a++ + a++;
+// cout<<a<<" "<<b<<" ";
+
+// int i=1;
+// i=i++ + ++i *i++;
+// cout<<i;
+
+// int i=5;
+// int j=i++ + i++ + i++ +i;
+// cout<<i<<" "<<j;
+
+// int a=1;
+// int b= ++a + a++ + ++a +a;
+// cout<<b;
+
+// int i=1;
+// i=i++ + ++i + i++;
+// cout<<i;
+
+// int x=3;
+// x=x++ * --x + ++x - x--;
+// cout<<x;
+
+// int a=5;
+// int b=a++ + ++a + --a +a--;
+// cout<<a<<" "<<b<<" ";
+
+// int i=5;
+// i=i++ + ++i + i++ + ++i;
+// cout<<i;
+
+
+// int x=1;
+// int y= ++x + x++ + (++x + x++)+x;
+// cout<<x<<" "<<y<<" ";
+
+int x=2,y=3;
+int z=x++ +y-- + --x + ++y +x+y;
+cout<<x<<" "<<y<<" "<<z;
 
 }
