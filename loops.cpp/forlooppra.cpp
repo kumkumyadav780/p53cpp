@@ -133,8 +133,111 @@ int main()
 // int y= ++x + x++ + (++x + x++)+x;
 // cout<<x<<" "<<y<<" ";
 
-int x=2,y=3;
-int z=x++ +y-- + --x + ++y +x+y;
-cout<<x<<" "<<y<<" "<<z;
+// int x=2,y=3;
+// int z=x++ +y-- + --x + ++y +x+y;
+// cout<<x<<" "<<y<<" "<<z;
 
+// int x=4,y=1;
+// cout<<(x|y);
+
+// int x=12,y=10;
+// cout<<(x&y)
+
+// int a=5;
+// int b=a++;
+// int c=++a;
+// cout<<a<<" "<<b<<" "<<c;
+
+// int x=3,y=4,z;
+// z=x++ + ++y +x;
+// cout<<x<<" "<<y<<" "<<z;
+
+// int a=10;
+// int b=a-- - --a + ++a + a++;
+// cout<<a<<" "<<b<<" ";
+
+// int p=1;
+// int q=2;
+// int r=3;
+// int result=p++ + q++ + ++r +p+q+r--;
+// cout<<p<<" "<<q<<" "<<r<<" "<<result;
+
+
+// for(int i=1;i>10;i++)
+// {
+// cout<<i;
+// }
+
+// int n,rev=0;
+// cout<<"Enter number :";
+// cin>>n;
+// int ans=n;
+// while(n>0){
+//  int digit=n%10;
+//  rev=rev*10+digit;
+//  n=n/10;
+// }
+// if(ans==rev){
+// cout<<"Palindrom";
+// }
+// else{
+//  cout<<"Not palindrom";
+// }
+
+// int n,count=1;
+// cout<<"enter number :";
+// cin>>n;
+// while(n>0){
+// n=n/10;
+// count++;
+// }
+// cout<<count;
+
+// int n,sum=0;
+// cout<<"Enter number :";
+// cin>>n;
+// int ans=n;
+// while(n>0){
+// int digit=n%10;
+// sum=sum+digit*digit*digit;
+// n=n/10;
+// }
+// if(ans==sum){
+// cout<<"armstrom";
+// }
+// else{
+//  cout<<"not armstrom";
+// }
+
+// int n;
+// cout<<"Enter number :";
+// cin>>n;
+// if(n<2){
+//  cout<<"not prime";
+//  return 0;
+// }
+// for(int i=2;i*i<n;i++){
+//  if(n%i==0){
+//  cout<<"not prime";
+//  return 0;
+//  }
+// }
+// cout<<"prime";
+
+
+// int n,sum=0;
+// cout<<"Enter number :";
+// cin>>n;
+// for(int i=1;i<n;i++){
+// if(n%i==0){
+// sum=sum+i;
+// }
+// }
+// if(sum==n)
+// {
+// cout<<"perfect";
+// }
+// else{
+//  cout<<"not perfect";
+// }
 }
