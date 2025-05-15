@@ -163,7 +163,7 @@ int main()
 // cout<<p<<" "<<q<<" "<<r<<" "<<result;
 
 
-// for(int i=1;i>10;i++)
+// for(int i=1;i<10;i++)
 // {
 // cout<<i;
 // }
@@ -240,4 +240,18 @@ int main()
 // else{
 //  cout<<"not perfect";
 // }
+
+// for(int i=1;i<=5;i++){
+//  for(int j=1;j<=5;j++){
+//  if(i<j){
+//  cout<<"*";
+//  }
+//  else{
+//  cout<<" ";
+//  }
+//  }
+//  cout<<endl;
+// }
+
+
 }

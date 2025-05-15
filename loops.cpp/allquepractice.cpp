@@ -198,7 +198,65 @@ int main()
 // int y= ++x + x++ + ++x;
 // cout<<y;
 
-int i=1;
-i=i++ + ++i *i++;
-cout<<i;
+// int i=1;
+// i=i++ + ++i *i++;
+// cout<<i;
+
+// int n,fact=1;
+// cout<<"Enter number :";
+// cin>>n;
+// for(int i=1;i<=n;i++){
+// fact=fact*i;
+// }
+// cout<<fact;
+
+// int n,fact=1;
+// cout<<"Enter number :";
+// cin>>n;
+// for(int i=1;i<=n;i++){
+// fact=fact*i;
+// }
+// cout<<"fact = "<<fact;
+
+// int n,rev=0;
+// cout<<"Enter number :";
+// cin>>n;
+// while(n>0){
+// int digit=n%10;
+// rev=rev*10+digit;
+// n=n/10;
+// }
+// cout<<rev;
+
+// int n,rev=0;
+// cout<<"Enter number :";
+// cin>>n;
+// int ans=n;
+// while(n>0){
+// int digit=n%10;
+// rev=rev*10+digit;
+// n=n/10;
+// }
+// if(rev==ans){
+//  cout<<"Palindrom";
+// }
+// else{
+// cout<<"Not palindrom";
+// }
+
+// int n,min=9;
+// cout<<"Enter number :";
+// cin>>n;
+// for(int i=1;i<=n;i++){
+
+// }
+
+// int n,sum=0;
+// cout<<"Enter number :";
+// cin>>n;
+// for(int i=1;i<=n;i++){
+// if(n%i==0){
+
+// }
+// }
 }
